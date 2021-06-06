@@ -2,6 +2,16 @@ import streamlit as st
 import openpyxl
 from datetime import date
 
+import pandas as pd
+import gspread
+from gspread_dataframe import set_with_dataframe
+
+id = '1iwGL8NBwH1BONg8i6DO4ReURIzL720ZL44jHYgrmzfg'
+
+gc = gspread.service_account(filename='dailytracker_plus.json')
+sh = gc.open_by_key(id)
+worksheet = sh.get_worksheet(0)
+
 #Date
 today = date.today()
 
@@ -10,24 +20,16 @@ st.markdown("<h1 style='text-align: center; color: black;'>Daily Tracker ++</h1>
 
 
 def save_in_daily_tracker(sessions, learnings, project_tasks):
-    path = "tracker.xlsx"
     
-    wb_obj = openpyxl.load_workbook(path)  
-    sheet_obj = wb_obj.active
-    max_col = sheet_obj.max_column
+    dataframe = pd.DataFrame(worksheet.get_all_records())
+    max_row = len(dataframe.index)
 
-    filled_row = sheet_obj.max_row 
-    sheet_obj.cell(row = 1, column = 1, value = "Date")
-    sheet_obj.cell(row = 1, column = 2, value = "Session details")
-    sheet_obj.cell(row = 1, column = 3, value = "Learning details")
-    sheet_obj.cell(row = 1, column = 4, value = "Project related tasks")
-        
-    sheet_obj.cell(row=filled_row + 1, column=1, value = today)
-    sheet_obj.cell(row=filled_row + 1, column=2, value = sessions)
-    sheet_obj.cell(row=filled_row + 1, column=3, value = learnings)
-    sheet_obj.cell(row=filled_row + 1, column=4, value = project_tasks)
-    
-    wb_obj.save(path)
+    data = [[today], [sessions], [learnings], [project_tasks]]
+
+    df = pd.DataFrame(data)
+    df = df.T
+    df.reset_index(drop=True, inplace=True)
+    set_with_dataframe(worksheet, df, row=max_row+1, col=1, include_column_header=False, include_index=False)
 
 
 sessions = st.text_area("Tell about the sessions you attended today", "Type Here ...")
