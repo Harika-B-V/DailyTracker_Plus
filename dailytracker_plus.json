@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "dailytracker-plus",
+  "private_key_id": "b28ee233d1845c67b962548da4fe6f05e8f122a6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCwe3AUcLBsebuu\nP2Q08V8dy5aLODi9wVlS00REvjdokfKJW2hbFulbtLy+9OYuyVxV3EQZtgyNV18A\nezfQc3uQgASnDjjtLdmYijtCtlDNzt1ZbKXY/LoiIsEyXCmjpKg4QZmeltOXV5Bf\nqWIOMOU5PjPjcOKBX3LYx/sRjV7/Ac17UlgrBNU/pqexw+hrP7RIctIm5JlNQI6W\n5vEz7wtH0mROLZsQ1JA8yO693T2S6mi0h424RqGQKXUTc7o0+tpS87SzGXR05RUS\n3vohSnaXlw6YApcgmj+hRTMJJfuha1us4L96A7UV9hES6hGJCeIGb1KKBfNqMtMc\nJBcxPCOXAgMBAAECggEAIwIxjxR1oucZGG1ByxDQjgALWo2qD9ZRilEXe02Cf09o\nXeAQmPU4EHWPdY/uM3zFQNEDf1gyMD2TPmyy+zpVWipTAfKbz0znm89cBxVUfSca\nmLkpQxyLLedYDM3kgq5Qomw89Y005xI7NQbMSUVgy1SwBV+oxwIwrZkqEGbLX+le\neHwGQr/BV6RTgak9U9b28szs6OFnSXVxcLdOOOXYE/kJ3e1a+eVeyOO0NNx8Lx3Y\nbrIxUFj4l5rg14ObvVWFroAeFHBDRUR/dZyBD4Oppat08m9feJfJDlnufv5zTJIQ\nlrltQeyN9ZwuBdPRRvsm5zC7oNX1NduuuXkLffUWfQKBgQDoTcxX6SkiSjgxzmTH\n013jHOaatIsa7Nwvo/1wsONLU4vtz0MI7BSpYoBGzGuxfbWeUBZhhlM8TapNcnpj\nu6uF3F0gY1bUbHPKzrPv/ErHlk04nAzoMi3lryk8Sg+gxXGjBKDGHfwbqz4zCzYG\nVuXdxFf3/K03sjCDPhOFc/rbIwKBgQDCe/R5wjKTjX8EpvP8Xn7DTVI7DdZ2eRw7\nnn1WaEile4Y8s6VY3aBzZ+VUeCjV02B0pQmp70oMpXKDjROe+rKp5QM0yWhsgmqj\nxaaPs70IzULkbhr2FmHXzTUfcMPmj4GKZ+rUAe9IUuYIEkfixehQaxignQJxqZjQ\nGIOHfWJG/QKBgBFgMFarA/6imo1vKK6hqrYgJUeRFY6QBPAzTfOt53Js71x8UkFK\nl0kMKxggljWSd5E94E6vI26xSHm+hFUNZoj+sKCJjacZ7ZdP2rmqn1VKcsA3O+fq\nSPCTJ3xw9bZKznMpF3V6LK9NIbvjrMjQmyT5WLMd3T77PxGyBPfIcw0NAoGAeZMT\nGKoVA7gIFthm3PQVOfEz3kagMh8zTvGcWE+IWioFmByU2CBzFLF14n/axxAD0+b3\nS4uSNqWWGDYwdckxtpK6llzxMiO0lfwQSvSIzt/BWRqbMAp9z3EwLB9J1u8Og37C\nhRVQh12K/rCuz0v4FY1dL8n2pSbnp+4rCp+Ot+ECgYAvMrliDW04dyckgII+RBZG\n/0hui6DWGxQb1KpTdTvOQadYHxkGMjy5JviS8WmKK7WOSHEYdSQ1vYndBe8g6BNB\nEAFUfodT/IGKOY7GQHF/3zTE60MAtUiXqoj4/LlJIV9RnEyyxYPiUeG2cscLi8n9\nnQeBJb8kqg5x0dB9dPyiyQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "dailytrackerplus@dailytracker-plus.iam.gserviceaccount.com",
+  "client_id": "116284222008391370405",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dailytrackerplus%40dailytracker-plus.iam.gserviceaccount.com"
+}
