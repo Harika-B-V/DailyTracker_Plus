@@ -1,2 +1,7 @@
 openpyxl==3.0.7
 streamlit==0.82.0
+gspread==3.7.0
+gspread-dataframe==3.2.1
+pandas==1.2.3
+google-spreadsheet==0.0.6
+google-auth==1.28.1
